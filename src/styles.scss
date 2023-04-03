@@ -1,0 +1,35 @@
+@import "./sass/vendors/bootstrap.scss";
+
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
+
+@import "./sass/base/base";
+@import "./sass/base/typography";
+
+@import "./sass/components/buttons";
+
+@import "./sass/layout/footer";
+@import "./sass/layout/sections";
+
+@import "./sass/sections/about";
+@import "./sass/sections/contact";
+@import "./sass/sections/hero";
+@import "./sass/sections/projects";
+
+#spin:after {
+    content:"Developer";
+    animation: spin 30s linear infinite;
+}
+@keyframes spin {
+    0% { content: "Web developer"; }
+    10% { content: "Front-End Developer"; }
+    20% { content: "Team member"; }
+    30% { content: "Full-stack Developer"; }
+    40% { content: "Programmer"; }
+    50% { content: "Person"; }
+    60% { content: "Web developer"; }
+    70% { content: "QA Engineer"; }
+    80% { content: "Front-End Developer"; }
+    90% { content: "Software Engineer"; }
+}
